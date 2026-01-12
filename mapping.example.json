@@ -1,0 +1,82 @@
+{
+  "data_engineering": {
+    "breakdown_strategy": "etl_pipeline",
+    "sections": [
+      "Data Sources",
+      "Extract Layer",
+      "Transform Layer",
+      "Load Layer",
+      "Data Quality",
+      "Orchestration"
+    ],
+    "code_patterns": {
+      "extract": ["read", "load", "fetch", "get_data"],
+      "transform": ["transform", "process", "clean", "aggregate"],
+      "load": ["write", "save", "insert", "export"]
+    }
+  },
+  "ml": {
+    "breakdown_strategy": "ml_pipeline",
+    "sections": [
+      "Data Preprocessing",
+      "Feature Engineering",
+      "Model Training",
+      "Model Evaluation",
+      "Model Deployment",
+      "Inference"
+    ],
+    "code_patterns": {
+      "preprocessing": ["preprocess", "clean", "normalize", "scale"],
+      "training": ["train", "fit", "fit_transform"],
+      "evaluation": ["evaluate", "score", "predict", "accuracy"]
+    }
+  },
+  "eda": {
+    "breakdown_strategy": "analysis_workflow",
+    "sections": [
+      "Data Loading",
+      "Data Exploration",
+      "Statistical Analysis",
+      "Visualization",
+      "Insights Generation",
+      "Reporting"
+    ],
+    "code_patterns": {
+      "exploration": ["describe", "info", "head", "tail"],
+      "analysis": ["corr", "groupby", "aggregate", "statistics"],
+      "visualization": ["plot", "hist", "scatter", "bar", "heatmap"]
+    }
+  },
+  "web_application": {
+    "breakdown_strategy": "mvc_architecture",
+    "sections": [
+      "Models",
+      "Views",
+      "Controllers",
+      "Routes",
+      "Middleware",
+      "Services"
+    ],
+    "code_patterns": {
+      "models": ["class", "model", "schema", "entity"],
+      "views": ["render", "template", "html", "view"],
+      "controllers": ["route", "endpoint", "handler", "controller"]
+    }
+  },
+  "api": {
+    "breakdown_strategy": "rest_api",
+    "sections": [
+      "Endpoints",
+      "Request Handling",
+      "Business Logic",
+      "Data Access",
+      "Response Formatting",
+      "Error Handling"
+    ],
+    "code_patterns": {
+      "endpoints": ["@app.route", "@router", "def get", "def post"],
+      "business_logic": ["process", "validate", "transform"],
+      "data_access": ["query", "fetch", "get", "find"]
+    }
+  }
+}
