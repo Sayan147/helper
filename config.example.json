@@ -1,0 +1,13 @@
+{
+  "project_type": "data_engineering",
+  "description": "Configuration file for reverse engineering CLI",
+  "metadata": {
+    "version": "1.0",
+    "created_date": "2024-01-01"
+  },
+  "settings": {
+    "output_format": "json",
+    "include_source_code": true,
+    "max_code_length": 5000
+  }
+}
